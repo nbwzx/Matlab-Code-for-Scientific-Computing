@@ -1,8 +1,6 @@
-##这是什么？
-
 这些上海交通大学科学计算课程需要的一些MATLAB代码，配合课本《数值分析》, 李庆扬，王能超，易大义，清华大学出版社
 
-##有哪些程序？
+目前有以下程序：
 
 Language.m          作Language插值
 
@@ -24,9 +22,7 @@ SOR.m               SOR迭代解线性方程组
 
 gaussseidel.m       Gauss–Seidel method迭代解线性方程组
 
-##许可证
-
-GNU Lesser General Public License v3.0
+许可证：GNU Lesser General Public License v3.0
 
 有任何意见或建议欢迎发Issue，也欢迎成为contributor直接贡献代码。
 
