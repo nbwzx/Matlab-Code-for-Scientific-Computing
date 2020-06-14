@@ -6,7 +6,7 @@ if(length(x) == length(y))
 else
     disp('x和y的维数不相等！');
     return;
-end                                      %检错
+end                                       %检错
 f = y(1);
 y1 = 0;
 l  = 1;
