@@ -32,9 +32,9 @@ end
 %x=[1,2,3]
 %y=[2,5,10]
 %x0=4
-%输入：Newton(x,y)
+%输入：f = Newton(x,y)
 %输出：t^2 + 1.0
-%输入：Newton(x,y,x0)
+%输入：f = Newton(x,y,x0)
 %输出：17
 %制作：王子兴
 %All rights reserved
