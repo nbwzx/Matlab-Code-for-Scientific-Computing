@@ -37,6 +37,8 @@
 
 * gaussseidel.m   &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      Gauss–Seidel迭代解线性方程组
 
+* matrix.m     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;            矩阵的相关matlab内置函数
+
 许可证
 =====
 GNU Lesser General Public License v3.0
