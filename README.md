@@ -29,7 +29,7 @@
 
 * SOR.m      &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;              SOR迭代解线性方程组
 
-* gaussseidel.m   &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      Gauss–Seidel method迭代解线性方程组
+* gaussseidel.m   &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      Gauss–Seidel迭代解线性方程组
 
 许可证
 =====
