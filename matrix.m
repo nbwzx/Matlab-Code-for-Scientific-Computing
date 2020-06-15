@@ -1,19 +1,20 @@
-%ÕâÊÇÒ»¸öMATLAB¾ØÕóÏà¹Øº¯ÊýµÄºÏ¼¯£¬ÐèÒªÓÃµÄÊ±ºòÈ¡Ïû×¢ÊÍ¼´¿É
+%è¿™æ˜¯ä¸€ä¸ªMATLABçŸ©é˜µç›¸å…³å‡½æ•°çš„åˆé›†ï¼Œéœ€è¦ç”¨çš„æ—¶å€™å–æ¶ˆæ³¨é‡Šå³å¯
 A=[2,-1,1;-1,-2,3;1,3,1];
 x=[-2 3 -1];
-%ÔÚmatlabÖÐ£¬ÓÐÁ½¸ö¾ØÕó³ý·¨µÄ·ûºÅ£¬×ó³ý\ºÍÓÒ³ý/¡£
-%Èç¹ûAÊÇÒ»¸ö·ÇÆæÒì·½Õó£¬ÄÇÃ´A\BºÍB/A¶ÔÓ¦AµÄÄæÓëBµÄ×ó³ËºÍÓÒ³Ë£¬¼´·Ö±ðµÈ¼ÛÓÚÃüÁîinv(A)*BºÍB*inv(A)¡£
-%x=A\b           %Çó½âAx=b
-%det(A)           %Çó¾ØÕóAµÄÐÐÁÐÊ½
-%inv(A)           %Çó¾ØÕóAµÄÄæ
-%rank(A)          %Çó¾ØÕóAµÄÖÈ
-%[D,V]=eig(A)     %Çó¾ØÕóAµÄÈ«²¿ÌØÕ÷Öµ£¬¹¹³É¶Ô½ÇÕóD£¬²¢ÇóAµÄÌØÕ÷ÏòÁ¿¹¹³ÉVµÄÁÐÏòÁ¿
-%norm(x,2)        %¼ÆËãÏòÁ¿xµÄ2-·¶Êý
-%norm(A,2)        %¼ÆËã¾ØÕóAµÄ2-·¶Êý
-%cond(A,2)        %¼ÆËã¾ØÕóAµÄ2-·¶ÊýÏÂµÄÌõ¼þÊý
-%cond(A,inf)      %¼ÆËã¾ØÕóAµÄ¡Þ-·¶ÊýÏÂµÄÌõ¼þÊý
-%[L,U]=lu(A)      %¶Ô¾ØÕóA½øÐÐLU·Ö½â(ÔÚÖÃ»»ÒâÒåÏÂ)
-%[L,D]=ldl(A)     %¶Ô¾ØÕóA½øÐÐLDL'·Ö½â
-%[Q,R]=qr(A)      %¶Ô¾ØÕóA½øÐÐQR·Ö½â£¬ÆäÖÐQÊÇÕý½»¾ØÕó
-%ÖÆ×÷£ºÍõ×ÓÐË
+%åœ¨matlabä¸­ï¼Œæœ‰ä¸¤ä¸ªçŸ©é˜µé™¤æ³•çš„ç¬¦å·ï¼Œå·¦é™¤\å’Œå³é™¤/ã€‚
+%å¦‚æžœAæ˜¯ä¸€ä¸ªéžå¥‡å¼‚æ–¹é˜µï¼Œé‚£ä¹ˆA\Bå’ŒB/Aå¯¹åº”Açš„é€†ä¸ŽBçš„å·¦ä¹˜å’Œå³ä¹˜ï¼Œå³åˆ†åˆ«ç­‰ä»·äºŽå‘½ä»¤inv(A)*Bå’ŒB*inv(A)ã€‚
+%x=A\b           %æ±‚è§£Ax=b
+%det(A)           %æ±‚çŸ©é˜µAçš„è¡Œåˆ—å¼
+%inv(A)           %æ±‚çŸ©é˜µAçš„é€†
+%rank(A)          %æ±‚çŸ©é˜µAçš„ç§©
+%[D,V]=eig(A)     %æ±‚çŸ©é˜µAçš„å…¨éƒ¨ç‰¹å¾å€¼ï¼Œæž„æˆå¯¹è§’é˜µDï¼Œå¹¶æ±‚Açš„ç‰¹å¾å‘é‡æž„æˆVçš„åˆ—å‘é‡
+%norm(x,2)        %è®¡ç®—å‘é‡xçš„2-èŒƒæ•°
+%norm(A,2)        %è®¡ç®—çŸ©é˜µAçš„2-èŒƒæ•°
+%cond(A,2)        %è®¡ç®—çŸ©é˜µAçš„2-èŒƒæ•°ä¸‹çš„æ¡ä»¶æ•°
+%cond(A,inf)      %è®¡ç®—çŸ©é˜µAçš„âˆž-èŒƒæ•°ä¸‹çš„æ¡ä»¶æ•°
+%[L,U]=lu(A)      %å¯¹çŸ©é˜µAè¿›è¡ŒLUåˆ†è§£(åœ¨ç½®æ¢æ„ä¹‰ä¸‹)
+%[L,D]=ldl(A)     %å¯¹çŸ©é˜µAè¿›è¡ŒLDL'åˆ†è§£
+%[Q,R]=qr(A)      %å¯¹çŸ©é˜µAè¿›è¡ŒQRåˆ†è§£ï¼Œå…¶ä¸­Qæ˜¯æ­£äº¤çŸ©é˜µ
+%chol(A)          %æŠŠä¸€ä¸ªå¯¹ç§°æ­£å®šçŸ©é˜µAåˆ†è§£ä¸ºä¸€ä¸ªä¸Šä¸‰è§’çŸ©é˜µRå’Œå…¶è½¬ç½®çŸ©é˜µçš„ä¹˜ç§¯ï¼Œå³A=R'R
+%åˆ¶ä½œï¼šçŽ‹å­å…´
 %All rights reserved
