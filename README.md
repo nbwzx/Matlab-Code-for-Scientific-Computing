@@ -41,6 +41,10 @@
 =====
 GNU Lesser General Public License v3.0
 
+作者
+=====
+上海交通大学王子兴。期待您的加入！
+
 写在最后
 =====
 有任何意见或建议欢迎发Issue，也欢迎成为contributor直接贡献代码。
