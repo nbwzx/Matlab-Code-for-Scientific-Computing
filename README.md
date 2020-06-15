@@ -13,9 +13,11 @@
 
 * Language.m     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      作Language插值
 
-* Newton.m       &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&thinsp;        作Newton插值
+* Newton.m       &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;        作Newton插值
 
 * Hermite.m     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&thinsp;       作Hermite插值
+
+* Cubicspline.m  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      作三次样条插值
 
 * polynomialfit.m  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      多项式拟合并画图
 
