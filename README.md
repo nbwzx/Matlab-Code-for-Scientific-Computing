@@ -25,6 +25,12 @@
 
 * Romberg.m     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;           龙贝格求积
 
+* chase.m     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      追赶法解三对角矩阵线性方程组
+
+* doolittle.m  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;        doolittle分解(直接三角分解)求解线性方程组
+
+* improvecholesky.m  &ensp;&ensp;&ensp;&ensp;&ensp;        改进的平方根法求解线性方程组
+
 * jacobi.m     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;            Jacobi迭代解线性方程组
 
 * SOR.m      &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;              SOR迭代解线性方程组
