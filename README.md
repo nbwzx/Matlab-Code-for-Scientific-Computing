@@ -15,7 +15,7 @@
 有哪些程序？
 =====
 
-* Language.m     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;     作Language插值
+* Language.m     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;     作Language插值
 
 * Newton.m       &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;        作Newton插值
 
@@ -23,7 +23,9 @@
 
 * Cubicspline.m  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      作三次样条插值
 
-* polynomialfit.m  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      多项式拟合并画图
+* Leastsquares.m &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;   利用最小二乘法拟合多项式 
+
+* orthpoly.m     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;        构建正交多项式
 
 * Comtrapezium.m   &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;       复合梯形求积
 
