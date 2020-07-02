@@ -26,6 +26,7 @@ while (J<n)
 end
 format long
 s=T(J+1,J+1);
+T
 %以下为输入示例：(想要用龙贝格求积)
 %f=@(x) sqrt(x).*log(x)
 %a=0.0001
