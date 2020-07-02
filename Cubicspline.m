@@ -48,9 +48,10 @@ elseif flag == 2
 end
 end
 if flag == 3 
-for i = 1 : n-1
-    d(i) = 6 * ((y(2)-y(1))/(x(2)-x(1)) - (y(i+1) - y(i))/( x(i+1) - x(i)))/(h(1)+h(i));
+for i = 2 : n-1
+    d(i-1) = 6 * ((y(i+1)-y(i))/(x(i+1)-x(i)) - (y(i) - y(i-1))/( x(i) - x(i-1)))/(h(i-1)+h(i));
 end
+d(n-1) = 6 * ((y(2)-y(1))/(x(2)-x(1)) - (y(n) - y(n-1))/( x(n) - x(n-1)))/(h(1)+h(n-1));
 end
 fprintf('计算 d 结果为：\n');
 d
