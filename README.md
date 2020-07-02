@@ -2,7 +2,7 @@
 
 这是什么？
 =====
-这些上海交通大学科学计算课程需要的一些MATLAB代码，配套课本《数值分析》, 李庆扬，王能超，易大义，清华大学出版社
+这些上海交通大学科学计算课程需要的一些MATLAB代码，配套课本《数值分析》, 李庆扬，王能超，易大义，清华大学出版社。
 
 项目背景
 =====
@@ -15,7 +15,7 @@
 有哪些程序？
 =====
 
-* Language.m     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;     作Language插值
+* Lagrange.m     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;     作Lagrange插值
 
 * Newton.m       &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;        作Newton插值
 
