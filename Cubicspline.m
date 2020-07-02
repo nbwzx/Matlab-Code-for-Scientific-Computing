@@ -1,4 +1,11 @@
 function  Cubicspline(x,y,flag,y1_deri,yn_deri)
+if nargin==3
+    y1_deri=0;
+    yn_deri=0;
+elseif nargin<3
+    error
+    return
+end  
 n = length(x);
 for i = 1 : n-1
     h(i) = x(i+1) -  x(i);
@@ -68,12 +75,13 @@ matrix1(n-1,n-1) = 2;
 matrix1(1,n-1) = u(1);
 matrix1(n-1,1) = lambda(n-1);
 end
-
 fprintf('计算 matrix1 结果为:\n');
 matrix1
 fprintf('计算 M 结果为:\n');
 M = matrix1\d'
-M = [M(n-1);M];
+if flag==3 
+M = [M(n-1);M]
+end
 for i = 1 : n-1
     clear S
     syms t
