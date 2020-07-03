@@ -29,7 +29,7 @@
 
 * Comtrapezium.m   &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;       复合梯形求积
 
-* Comtrapezium.m    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;    复合辛普森求积
+* Comsimpson.m    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;    复合辛普森求积
 
 * Romberg.m     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;           龙贝格求积
 
