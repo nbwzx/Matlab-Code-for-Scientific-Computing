@@ -1,4 +1,4 @@
-![](http://file.elecfans.com/web1/M00/56/9D/o4YBAFs_QpaAL7QSAAOfy3eVAQ8817.png)
+![](https://mazicumpact.files.wordpress.com/2015/05/dna-1-default-splash.jpg)
 
 这是什么？
 =====
